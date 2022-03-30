@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}
+.calc-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #aaaaaa;
+    width: 400px;
+    gap: 10px  10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+.gridChildren,.screen{
+    background-color: #eeee;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    word-break: break-word;
+    overflow: scroll;
+    
+}
+.gridChildren:hover{background-color: #dddddd;}
+#g1{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 150px;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0 15px;
+}
+#g2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #ffaaaa;
+}
+
+#g2:hover{
+    background-color: #ee9999;
+}
+
+#g3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: #aaaaff;
+}
+
+#g3:hover{
+    background-color: #9999ee;
+}
