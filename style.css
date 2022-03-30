@@ -9,11 +9,15 @@ body{
     align-content: center;
     height: 100vh;
 }
+.calculator-container{
+    display: block;
+    width: max(30vw,360px);
+}
 .calc-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: #aaaaaa;
-    width: 400px;
+    width: 100%;
     gap: 10px  10px;
     padding: 20px;
     border: 2px solid black;
