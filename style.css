@@ -61,3 +61,10 @@ body{
 #g3:hover{
     background-color: #9999ee;
 }
+#g18,#g19,#g15,#g11,#g7{
+    background-color: #faec86;
+}
+
+#g18:hover,#g19:hover,#g15:hover,#g11:hover,#g7:hover{
+    background-color: #f5e468;
+}
